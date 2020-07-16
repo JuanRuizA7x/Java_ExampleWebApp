@@ -36,7 +36,11 @@ public class Authentication extends HttpServlet {
 		
 		try {
 			boolean isAuthenticated = validator.authenticate(user, password);
-			System.out.println(isAuthenticated);
+			if(isAuthenticated) {
+				response.sendRedirect("home.jsp");
+			} else {
+				response.sendRedirect("index.jsp");
+			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

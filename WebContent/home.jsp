@@ -5,7 +5,7 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title>Login</title>
+	<title>Home</title>
 	
 	<!-- BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -15,18 +15,7 @@
 
 	<div class="container m-5">
 		<div class="col-md-4">
-			<h1>Inicie sesión</h1>
-			<form action="Authentication" method="post">
-				<div class="form-group">
-				    <label>Usuario</label>
-				    <input type="text" class="form-control" id="user" name="user">
-				</div>
-				<div class="form-group">
-					<label>Password</label>
-				    <input type="password" class="form-control" id="password" name="password">
-				</div>
-				<button type="submit" class="btn btn-primary" id="login" name="login" >Ingresar</button>
-			</form>
+			<h1>Bienvenido</h1>
 		</div>
 	</div>
 	
